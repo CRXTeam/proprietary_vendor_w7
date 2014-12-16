@@ -59,9 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/w7/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/lge/w7/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/lge/w7/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
-    vendor/lge/w7/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/lge/w7/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
-    vendor/lge/w7/proprietary/lib/hw/audio.primary.msm8226.so:system/lib/hw/audio.primary.msm8226.so \
     vendor/lge/w7/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/lge/w7/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
     vendor/lge/w7/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
@@ -241,3 +238,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/w7/proprietary/lib/libirrcClient.so:system/lib/libirrcClient.so \
     vendor/lge/w7/proprietary/lib/libirrcJni.so:system/lib/libirrcJni.so \
     vendor/lge/w7/proprietary/lib/liblgewg.so:system/lib/liblgewg.so \
+    vendor/lge/w7/proprietary/lib/libatd_corelib.so:system/lib/libatd_corelib.so \
+    vendor/lge/w7/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
+    vendor/lge/w7/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so\
+    vendor/lge/w7/proprietary/bin/bdaddr_loader:system/bin/bdaddr_loader \
+    vendor/lge/w7/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/lge/w7/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init
